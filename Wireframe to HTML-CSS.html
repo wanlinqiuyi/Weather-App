@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="src/styles.css">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  </head>
+   <body>
+    <div class="container all">
+      <div class="card">
+        <div class="card-body">
+          <form id="search">
+            <div class="form-row justify-content-center">
+              <div class="col-7">
+                <input
+                class="form-control"
+                placeholder="Enter a city"
+                autocomplete="off"
+                autofocus="on"
+                id="search-city"
+                type="text"/>
+              </div>
+            </div>
+          </form>
+          <div class="currentLocation">
+            <a href="#" class="text-decoration-none" id="currentLocation">Use current location </a>
+          </div>
+
+  <div class="container weather">
+    <div class="row ">
+    <div class="col">
+      <div id="city">
+      Montreal</div>
+      <div class="date">
+        <p>
+          <span id="spanDate"> Saturday 21:00
+          </span>
+          <br />
+        <span class="spanWeather" id=weatherType>
+        Clouds
+        </span>
+        </p>
+      </div> 
+      </div>
+    </div>
+    <div class="col">
+      <div class="temperature "> 
+      <span class="align-middle temp-emoji" id="icon">☁</span>
+      <span class="align-middle" id="degres" >19</span>
+      <span class="unit"> 
+        <a href="#" id="celcius">°C</a> |
+      <a href="#" id="fahrenheit">°F</a>
+      
+    </span>
+          
+      </div>
+    </div>
+    <div class="col">
+      <div class="info">
+      <p>
+      Cloudiness: <span id=cloud>15</span>%
+      <br />
+       Humidity: <span id=humid>77</span>%
+      <br />
+       Wind: <span id=wind>5</span>km/h
+      </p>
+      </div>
+    </div>
+  </div>
+</div>
+  <hr />   
+  <div class="container week">
+      <div class="row ">
+        <div class="col-sm-8">
+          <div class="sat">
+           Sat
+          <div class="emoji">
+            ☁
+          </div>
+            <strong>28°</strong>18°
+          </div>
+          </div>
+          </div>
+        </div>
+         
+          <div class="col-sm-8">
+          <div class="sun">
+           Sun
+          <div class="emoji">
+            🌥
+          </div>
+            <strong>28°</strong>20°
+          </div>
+          </div>
+          </div>
+        </div>
+            <div class="col-sm-8">
+          <div class="mon">
+           Mon
+          <div class="emoji">
+            🌧
+          </div>
+            <strong>31°</strong>21°
+          </div>
+          </div>
+          </div>
+        </div>
+        </div>
+            <div class="col-sm-8">
+          <div class="tue">
+           Tue
+          <div class="emoji">
+            🌧
+          </div>
+            <strong>32°</strong>23°
+          </div>
+          </div>
+          </div>
+        </div></div>
+            <div class="col-sm-8">
+          <div class="wed">
+           Wed
+          <div class="emoji">
+            🌧
+          </div>
+            <strong>31°</strong>22°
+          </div>
+          </div>
+          </div>
+        </div></div>
+            <div class="col-sm-8">
+          <div class="thu">
+           Thu
+          <div class="emoji">
+            🌧
+          </div>
+            <strong>29°</strong>22°
+          </div>
+          </div>
+          </div>
+        </div>
+        </div>
+            <div class="col-sm-8">
+          <div class="ven">
+           Ven
+          <div class="emoji">
+            🌧
+          </div>
+            <strong>28°</strong>16°
+          </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+        
+  <div class="copyright">
+                        <em>
+            © Coded by
+            <a
+              href="https://wanlinqiuyi.wixsite.com/portfolio?lang=en" class="text-decoration-none"
+              target="_blank"
+            >
+              Lin Qiu Yi Wan</a
+            >. 2021. All rights reserved.</em
+          >
+												</div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="src/index.js"></script>
+
+</html>

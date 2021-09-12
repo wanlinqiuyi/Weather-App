@@ -1,0 +1,112 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  display: block;
+  color: #5a6275;
+}
+.container .all {
+  margin: 80px;
+}
+.card {
+  margin-top: 50px;
+}
+.card-body {
+  padding: 0;
+}
+form {
+  margin-top: 60px;
+}
+.currentLocation {
+  margin: 5px;
+}
+.weather {
+  margin-top: 15px;
+  padding: 0 50px;
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+}
+.col {
+  flex-grow: 3;
+  align-self: center;
+}
+#city {
+  color: orange;
+  font-size: xx-large;
+  text-align: left;
+}
+.date {
+  text-align: left;
+  font-size: 16px;
+}
+.temperature {
+  text-align: center;
+  position: relative;
+  left: 155px;
+}
+.temp-emoji {
+  font-size: 100px;
+}
+#degres {
+  font-size: 60px;
+}
+.info {
+  text-align: right;
+  font-size: 16px;
+}
+hr {
+  border-top: 3px solid#DEE0E3;
+  text-align: center;
+  display: block;
+  position: relative;
+  left: 50px;
+  width: 80%;
+  padding: 0 50px;
+}
+.col-sm-8 {
+  margin-top: 15px;
+}
+.sat {
+  position: relative;
+  right: 290px;
+}
+.sun {
+  position: relative;
+  bottom: 111px;
+  right: 140px;
+}
+.mon {
+  position: relative;
+  bottom: 223px;
+  left: 90px;
+}
+.tue {
+  position: relative;
+  bottom: 334px;
+  left: 250px;
+}
+.wed {
+  position: relative;
+  bottom: 445px;
+  left: 405px;
+}
+.thu {
+  position: relative;
+  bottom: 556px;
+  left: 560px;
+}
+.ven {
+  position: relative;
+  bottom: 667px;
+  left: 715px;
+}
+.emoji {
+  font-size: 2rem;
+}
+.copyright {
+  font-size: 12px;
+  color: #5a6275;
+  position: relative;
+  bottom: 600px;
+}
